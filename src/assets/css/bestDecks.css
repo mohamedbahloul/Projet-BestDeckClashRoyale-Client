@@ -1,0 +1,82 @@
+.horizontal_line {
+    background-color: lightgray;
+    border: 0;
+    width: 100px;
+    height: 3px;
+    margin: 200 auto; 
+    margin-right: 10px; 
+    margin-left: 10px;
+  }
+  
+
+.reinitialiser_button{
+  margin-top: 30px;
+}
+
+.deck-card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .deck-card:hover {
+    box-shadow: 0 0 7px rgba(4, 54, 182, 0.5);
+
+  }
+  
+  .deck-info,
+  .stats-info {
+    flex: 1;
+  }
+  
+  .horizontal_line {
+    width: 100%;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between cards as needed */
+    margin-left: 100px;
+  }
+
+  .stats-info-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    height: 300px;
+    align-items: center;
+    /* aligner les éléments sur l'axe verticale  */
+    justify-content: center;
+
+    
+  }
+  
+
+  
+  .deck-card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    flex-wrap: wrap; /* Allow content to wrap to the next line */
+  }
+  
+  .deck-info,
+  .stats-info {
+    flex: 1;
+    margin-right: 10px; /* Add margin between deck info and stats info */
+
+  }
+  
+
+  .no-deck-text{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 200px;
+    
+  }

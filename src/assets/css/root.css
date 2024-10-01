@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proxima-nova-light-webfont.woff');
+}
+
+:root {
+    --beige: #e0ded2;
+    --primary: 'Gilroy';
+    --secondary: 'Proxima Nova';
+    --white: #fff;
+    --black: #000;
+
+    --white : #EFEFF1;
+    --blue : #3465af;
+    --smokyBlack : #151211;
+    --sandyBrown : #F0A44F;
+    --vanilla: #F6E5AC;
+    --black : #000000;
+    --sealBrown : #421D05;
+
+
+
+
+}
+
+
+p {
+    font-family: 'Proxima Nova';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gilroy';
+}

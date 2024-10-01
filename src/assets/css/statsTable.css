@@ -1,0 +1,38 @@
+.stats-table {
+    width: fit-content;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #333;
+    text-align: center;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats-table__header {
+    background: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .stats-table__header-cell,
+  .stats-table__cell {
+    padding: 10px 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .stats-table__body {
+    font-weight: normal;
+  }
+  
+  .stats-table__row {
+    border-bottom: 11px solid #ddd;
+  }
+  
+  .stats-table__cell:last-child,
+  .stats-table__header-cell:last-child {
+    border-right: none;
+  }
+  

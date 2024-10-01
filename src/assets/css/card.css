@@ -1,0 +1,28 @@
+/* Card.css */
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-container:hover {
+    transform: scale(1.05); /* Ajustez la valeur de l'agrandissement selon vos préférences */
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1); /* Ajustez l'ombre selon vos préférences */
+  }
+  
+  .card-img {
+    object-fit: cover;
+    margin-bottom: 2px; 
+  }
+  
+  .card-name {
+    font-size: 14px; 
+    margin: 0; 
+    font-weight: bold;
+
+  }
+  
+  .card-container.selected {
+    border: 2px solid red; /* Couleur de la bordure pour les cartes sélectionnées */
+    background-color: #f0f0f0; /* Couleur d'arrière-plan pour les cartes sélectionnées */
+  }

@@ -1,0 +1,31 @@
+.ngram-cards-container{
+    display: flex;
+    flex-direction: row; /* Alignement horizontal des cartes */
+    flex-wrap: wrap;
+    gap: 40px 150px; /* Ajustez la valeur de l'espacement entre les cartes selon vos préférences */
+    white-space: nowrap;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.ngram-statistics-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    height: 300px;
+    align-items: center;
+}
+
+.no-stats-text{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    
+  }
+.ngram-statistics-graphs-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 300px;
+}
